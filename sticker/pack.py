@@ -132,7 +132,7 @@ parser.add_argument("--config",
 parser.add_argument("--title", help="Override the sticker pack displayname", type=str,
                     metavar="title")
 parser.add_argument("--id", help="Override the sticker pack ID", type=str, metavar="id")
-parser.add_argument("--add-to-index", help="Sticker picker pack directory (usually 'web/packs/')",
+parser.add_argument("--add-to-index", help="Sticker picker pack directory (usually '../web/packs/')",
                     type=str, metavar="path")
 parser.add_argument("path", help="Path to the sticker pack directory", type=str)
 
